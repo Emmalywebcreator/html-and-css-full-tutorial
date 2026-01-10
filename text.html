@@ -61,6 +61,94 @@
         text-decoration: underline;
     }
 
+    .different-font {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 800px;
+        background-color: black;
+        margin-top: 20px;
+    }   
+
+    h2 {
+        color: white;
+        font-family: arial;
+    }
+
+    .tahoma-font {
+        font-family: Tahoma, sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        background-color: white;
+        color: black;
+        width: 280px;
+        padding: 15px;
+    }
+
+    .arial-font {
+        font-family: Arial, sans-serif;
+        font-size: 24px;
+        font-weight: 900;
+        background-color: white ;
+        color: black;
+        width: 400px;
+        padding: 20px;
+        line-height: 20px;
+    }
+
+    .sales {
+        color: red;
+        font-style: italic;
+        font-size: 16px;
+    }
+
+    .html-course {
+        font-family: Verdana, sans-serif;
+        background-color: white;
+
+        width: 250px;
+        padding: 15px;
+    }
+    .pro {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .content {
+        margin-bottom: 15px;
+        font-weight: 500;
+    }
+
+    .btn {
+        background-color: rgb(35, 138, 9);
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .courier-font {
+        font-family: "Courier New", Courier, monospace;
+        background-color: white;
+        color: black;
+        width: 430px;
+        padding: 5px;
+        text-align:center;
+    }   
+    .courier-font h3 {
+        font-size: 25px;
+        font-weight: bolder;
+        margin-bottom: 20px;
+    }
+    .courier-font p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
 </style>
 
 </head>
@@ -84,5 +172,42 @@
     <p class="apple-text">
         Shop early for the best selection of holiday favourites. <span class="shop-text">Shop now &#62;</span>
     </p>
+    <div class="different-font">
+        <div>
+            <h2>5a. font = Tahoma</h2>
+            <p class="tahoma-font">
+                This is Tahoma font.
+            </p>      
+        </div>
+        <div>
+            <h2>5b. font = Arial</h2>
+            <p class="arial-font">
+                Biggest Deals of the Year! <span class="sales">Sales end Soon</span>
+            </p>
+        </div>
+        <div>
+            <h2>5c. font = Verdana</h2>
+            <div class="html-course">
+                <h3>HTML CSS Course</h3>
+                <p class="pro">Beginner to Pro</p>
+                <p class="content">
+                    In this course, you will learn HTML and CSS from scratch. Build real-world projects and gain hands-on experience to become a proficient web developer.
+                </p>
+                <button class="btn">Get Started</button>                
+            </div>
+        </div>
+        <div>
+            <h2>5d. font = Courier New</h2>
+            <div class="courier-font">
+                <h3>Shopping for your business?</h3>
+                <p >
+                    See how Apple at work can help.
+                </p>
+                <a href="apple.com" target="_blank">Learn more &#62</a>
+
+            </div>
+        </div>
+    </div>
+    <p style="margin-top: 500px;">Down</p>
 </body>
 </html>
