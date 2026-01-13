@@ -3,13 +3,25 @@ p {
     margin: 5px 0;
 }
 
+.search-bar {
+    display: block;
+}
+
+.video-preview {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
 .thumbnail {
     width: 300px;
     display: block;
 }
 
-.search-bar {
-    display: block;
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
 }
 
 .channel-1 {
@@ -25,22 +37,11 @@ p {
     margin-bottom: 12px;
 }
 
-.video-preview {
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 10px;
-}
-
 .channel1-overview {
-    display: inline-block;
-    vertical-align: top;
     margin-right: 10px;
 }
 
 .video-details {
-    display: inline-block;
-    vertical-align: top;
     width: 200px;
 }
 
