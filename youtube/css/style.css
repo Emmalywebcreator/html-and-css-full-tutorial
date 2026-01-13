@@ -7,16 +7,9 @@ p {
     display: block;
 }
 
-.video-preview {
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 10px;
-}
 
 .thumbnail {
-    width: 300px;
-    display: block;
+    width: 100%;
 }
 
 .video-info-grid {
@@ -57,3 +50,11 @@ p {
 .author {
     margin-bottom: 4px;
 }
+
+.grid-view {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+
