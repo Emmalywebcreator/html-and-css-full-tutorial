@@ -39,6 +39,7 @@
         padding: 15px;
         line-height: 10px;
         font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 20px;
     }
 
     .par1 {
@@ -53,6 +54,66 @@
         line-height: 20px;
         margin-bottom: 0;
     }
+
+    .search-con {
+        background-color: white;
+        width: 450px;
+        border: 2px solid white;
+        border-radius: 8px;
+        box-shadow: 2px 2px 15px 2px grey;
+        vertical-align: middle;
+    }
+
+    .img-1 {
+        width: 30px;
+        border-radius: 50px;
+        vertical-align: middle;
+        margin-left: 10px;
+    }
+
+    .img-1, .what, .x {
+        display: inline-block;
+    }
+
+    .what {
+        color: grey;
+        margin-left: 10px;
+    }
+
+    .x {
+        background-color: rgb(130, 149, 253);
+        border: none;
+        padding: 10px;
+        width: 100px;
+        border-radius: 30px;
+        margin-left: 160px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .oliver, .mimi, .rex {
+        display: inline-block;
+        margin-right: 10px;
+        margin-top: 15px;
+        vertical-align: top;
+        line-height: 5px;
+        background: white;
+        box-shadow: 2px 2px 2px 2px grey;
+    }
+
+    .olive-img, .mimi-img, .rex-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .google-div {
+        width: 800px;
+        height: 300px;
+        background-color: white;
+        border: 2px solid white;
+        box-shadow: 2px 2px 2px 2px grey; 
+        margin-top: 15px;   
+        }
 </style>
 <body>
     <div>
@@ -70,10 +131,43 @@
         <p class="par1">Install YouTube Music</p>
         <p class="par2">Add YouTube Music to your desktop for quick and eassy access.</p>
     </div>
-    <div>
-        <img src="" alt="">
-        <p>What's happening?</p>
-        <button>Tweet</button>
+    <div class="search-con">
+        <img class="img-1" src="./image/emmy2.jpg" alt="">
+        <p class="what">What's happening?</p>
+        <button class="x">Tweet</button>
     </div>
+    <div class="oliver">
+        <img class="olive-img" src="./image/Oliver.png" alt="">
+        <p>Oliver</p>
+        <p>2 mutual friends</p>
+        <button>
+            Add Friend
+        </button>
+    </div>
+    <div class="mimi">
+        <img class="mimi-img" src="./image/Mimi.png" alt="">
+        <p>Mimi</p>
+        <p>3 mutual friends</p>
+        <button>
+            Add Friend
+        </button>
+    </div>
+    <div class="rex">
+        <img class="rex-img" src="./image/Rex.png" alt="">
+        <p>Rex</p>
+        <p>4 mutual friends</p>
+        <button>
+            Add Friend
+        </button>
+    </div>
+    <div  class="google-div">
+        <div>
+            <img src="./image/google.png" alt="Google">
+        </div>
+        <div>
+            <input class="search-b" type="search" placeholder="search here">
+        </div>
+    </div>
+
 </body>
 </html>
