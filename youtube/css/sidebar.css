@@ -2,8 +2,32 @@
     background-color: white;
     color: black;
     position: fixed;
-    top: 55px;
+    top: 40px;
     left: 0;
     bottom: 0;
-    width: 70px;
+    width: 80px;
+    z-index: 1200;
+}
+
+.sidebar-link {
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar-link img {
+    width: 24px;
+    margin-bottom: 10px;
+}
+
+.sidebar-link div {
+    font-family: Roboto, Arial;
+    font-size: 10px;
+}
+
+.sidebar-link:hover {
+    background-color: rgb(240, 240, 240);
 }
