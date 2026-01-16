@@ -15,7 +15,8 @@ padding-left: 70px;">
         top: 0;
         left: 0;
         right: 0;
-        height: 40px;">Header</div>
+        height: 40px;
+        z-index: 500;">Header</div>
     <div style="
         background-color: lightblue;
         height: 200px;
@@ -23,7 +24,17 @@ padding-left: 70px;">
     <div style="background-color: lightcoral;
         height: 200px;
         width: 200px;
+        position: relative;
         ">DIV2
+        <div style="
+        background-color: black;
+        color: white;
+        padding: 4px;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        border-radius: 4px;
+        ">50:00</div>
     </div>
     <div style="
     background-color: green;
@@ -33,7 +44,22 @@ padding-left: 70px;">
     bottom: 0;
     top: 40px;
     width: 60px;">
-        sidebar
+      
+            <div style="
+        position: absolute;
+        top: 0.5px;
+        right: 4px;
+        ">
+        x
+    </div>
+    </div>
+    <div style="
+    position: absolute;
+    background-color: orangered;
+    top: 50px;
+    right: 20px;
+    ">
+        absolute
     </div>
 </body>
 </html>
