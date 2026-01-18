@@ -5,6 +5,20 @@
     row-gap: 40px;
 }
 
+@media (max-width: 600px){
+    .grid-view {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 850px) {
+    .grid-view {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
 .thumbnail {
     width: 100%;
 }
@@ -54,7 +68,8 @@
     color: white;
     font-family: Roboto, Arial, sans-serif;
     font-size: 12px;
-    padding: 4px 4px;
+    font-weight: 500px;
+    padding: 4px;
     position: absolute;
     right: 5px;
     bottom: 10px;
